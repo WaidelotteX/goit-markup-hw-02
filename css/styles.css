@@ -1,0 +1,142 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .nav-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts .contacts {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Поставил цвет серый, так как нет бэкграунда и цвет заголовка сливается со страницей. */
+
+.main-section .main-header {
+  color: var(--secondary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  text-align: center;
+}
+
+.main-section .main-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border: 0;
+}
+
+.benefits .benefits-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+.benefits .benefits-description {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* могу ли я здесь не давать класс секции, а напрямую обратиться к заголовку? */
+
+.job-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-wrapper .team-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-wrapper .team-description {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Оставил адресу серый цвет, потому что бэкграунд белый. */
+
+.footer-contacts .footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* CSS для портфолио */
+
+/* Шрифт не похож, на то, как выглядит в макете, почему? Там он жирнее, как будто 600 */
+
+.portfolio-section .filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: #f5f4fa;
+  border: 0;
+  color: var(--primary-text-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #2196f3;
+  color: var(--white-color);
+}
+
+.portfolio-cards .portfolio-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-cards .portfolio-description {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--secondary-text-color);
+}
